@@ -7,7 +7,7 @@ const config = {
   title: `gatsby-blog-mdx`,          // Displayed in header
   description: `This is my blog`,     // Site description
   maxWidth: "768px",                  // Max width of website
-  enableAbout: true,                  // Enables about page
+  enableAbout: false,                  // Enables about page
   siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
 
