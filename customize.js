@@ -26,21 +26,21 @@ const config = {
   socialMediaLinks: {
     email:     { emailAddress: "", showHeaderIcon: true },
     github:    { accountName: "", showHeaderIcon: true },
-    facebook:  { accountName: "", showHeaderIcon: true },
-    instagram: { accountName: "", showHeaderIcon: true },
-    twitter:   { accountName: "", showHeaderIcon: true },
-    linkedIn:  { accountName: "", showHeaderIcon: true },   // Use URL after "linkedin.com/"
-    medium:    { accountName: "", showHeaderIcon: true },   // Use URL after "medium.com/@"
+    facebook:  { accountName: "", showHeaderIcon: false },
+    instagram: { accountName: "", showHeaderIcon: false },
+    twitter:   { accountName: "", showHeaderIcon: false },
+    linkedIn:  { accountName: "", showHeaderIcon: false },   // Use URL after "linkedin.com/"
+    medium:    { accountName: "", showHeaderIcon: false },   // Use URL after "medium.com/@"
   },
 
   /* Social Media Share Buttons--available below every post
   ========================================= */
-  shareButtons: { email: false, facebook: true, twitter: true, reddit: false, linkedIn: false },
+  shareButtons: { email: false, facebook: false, twitter: false, reddit: false, linkedIn: false },
 
   /* Comments
   ========================================= */
   comments: {
-    facebook: { enabled: true, appId: "" },      // appId: optional, but used to moderate fb comments
+    facebook: { enabled: false, appId: "" },      // appId: optional, but used to moderate fb comments
     disqus: { enabled: false, shortName: "" },   // Check your shortName on https://disqus.com
     utterances: { enabled: false, repoUrl: "" }, // i.e. 'ellismin/gatsby-blog-mdx'
   },
