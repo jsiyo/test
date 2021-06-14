@@ -1,5 +1,4 @@
 const config = require("./customize")
-const rss = require("./gatsby-rss")
 
 module.exports = {
   siteMetadata: config,
@@ -13,7 +12,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-remark-emoji`, // Emoji list: https://emojipedia.org/joypixels/
-    rss,
 
     // Read markdown/mdx files
     {
